@@ -4,7 +4,10 @@ import uiImage from "../images/UI.png";
 
 export default function Hero() {
   return (
-    <section className="relative bg-black text-white min-h-screen flex items-center">
+    <section className="relative bg-[#151312] text-white min-h-screen flex items-center">
+      <div className="absolute inset-0 text-center text-[20vw] font-bold text-gray-800/20 select-none pointer-events-none flex items-center justify-center">
+        ONKAR GORE
+      </div>
       <div className="container mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>

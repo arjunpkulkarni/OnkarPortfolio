@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="font-outfit">       
+    <div className="font-outfit bg-[#151312]">       
       <Nav />    
       <Hero />
       <About />
