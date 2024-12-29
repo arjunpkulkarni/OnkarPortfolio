@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Outfit";
+  src: url("../src/fonts/Outfit/static/Outfit-Black.ttf") format("truetype");
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
