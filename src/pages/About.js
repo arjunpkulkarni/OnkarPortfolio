@@ -1,17 +1,18 @@
 "use client";
 
+import profileImage from "../images/ONKAR.png";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
+
 export default function Hero() {
   return (
     <div className="relative min-h-screen bg-black text-white overflow-hidden px-4 lg:px-8">
       {/* Background Text */}
-      
-
       <div className="relative z-10 max-w-screen-xl mx-auto pt-20 lg:pt-32 grid lg:grid-cols-2 gap-12 items-center">
         {/* Left Column - Text Content */}
         <div className="space-y-6">
           <div className="flex items-center gap-6 mb-8">
             <img 
-              src="/placeholder.svg?height=120&width=120"
+              src={profileImage}
               alt="Profile"
               className="w-28 h-28 rounded-full border-4 border-white/10"
             />
@@ -33,19 +34,23 @@ export default function Hero() {
               Contact me
             </button>
             <div className="flex items-center gap-3">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
-                <img 
-                  src="/placeholder.svg?height=40&width=40"
-                  alt="Instagram"
-                  className="w-10 h-10"
-                />
+              {/* Instagram Icon */}
+              <a 
+                href="https://instagram.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:opacity-80 transition-opacity text-gray-300"
+              >
+                <FaInstagram size={30} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
-                <img 
-                  src="/placeholder.svg?height=40&width=40"
-                  alt="LinkedIn"
-                  className="w-10 h-10"
-                />
+              {/* LinkedIn Icon */}
+              <a 
+                href="https://linkedin.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:opacity-80 transition-opacity text-gray-300"
+              >
+                <FaLinkedin size={30} />
               </a>
             </div>
           </div>

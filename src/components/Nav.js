@@ -5,7 +5,7 @@ import { Home, FolderClosed, Settings, Smartphone } from "lucide-react";
 export default function Nav() {
   return (
     <nav className="flex gap-8 items-center bg-[#151312] justify-center">
-      <div className="mt-4 flex flex-row gap-6">
+      <div className="mt-8 flex flex-row gap-20">
       <a
         href="/"
         className="text-white opacity-70 hover:opacity-100 transition-opacity duration-300 flex items-center"
