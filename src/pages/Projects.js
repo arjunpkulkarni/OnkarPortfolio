@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight } from "lucide-react";
 import Artica from "../images/ARTICA.png";
 import BeatPro from "../images/BEATPRO.png";
 import FitCheck from "../images/FITCHECK.png";
@@ -28,15 +28,13 @@ export default function Projects() {
   ];
 
   return (
-    <section className="min-h-screen bg-[#151312] text-white ">
+    <section className="min-h-screen bg-[#151312] text-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-16 text-center">Recent Projects</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">Recent Projects</h2>
 
-        <div className="flex gap-8 aspect-square">
+        <div className="flex gap-8">
           {/* LUMELABS Button */}
-          <div
-            className="hidden md:flex w-[250px] h-[900px] bg-zinc-900 rounded-2xl items-center justify-center relative group cursor-pointer"
-          >
+          <div className="hidden md:flex w-[250px] h-[900px] bg-zinc-900 rounded-2xl items-center justify-center relative group cursor-pointer">
             <span className="text-9xl font-bold tracking-wider rotate-180 [writing-mode:vertical-lr]">
               LUMELABS
             </span>

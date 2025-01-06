@@ -3,6 +3,7 @@ import Hero from "../src/pages/Hero";
 import About from "../src/pages/About";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
+import Experience from "./pages/Experience";
 
 import './App.css';
 
@@ -14,7 +15,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
-
+      <Experience />
     </div>
   );
 }
