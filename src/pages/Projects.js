@@ -29,8 +29,9 @@ export default function Projects() {
 
   return (
     <section className="min-h-screen bg-[#151312] text-white">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-center">Recent Projects</h2>
+      <div className="container mx-auto px-4 transform scale-90"> {/* Applied scale to everything */}
+        {/* Title: Not scaled */}
+        <h2 className="text-4xl font-bold mb-12 text-center pb-6">Recent Projects</h2>
 
         <div className="flex gap-8">
           {/* LUMELABS Button */}
