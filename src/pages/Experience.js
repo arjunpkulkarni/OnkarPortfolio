@@ -46,7 +46,7 @@ export default function CompanyShowcase() {
               />
             </div>
             <div className="relative">
-              <p className="text-[28px] leading-[1.4] font-light">
+              <p className="text-[28px] leading-[1.4] font-bold">
                 LumeLabs is a creative agency specializing in web development, e-commerce solutions,
                 and digital marketing. We help businesses, especially clothing brands, elevate their
                 online presence with custom websites, innovative designs, and tailored marketing
