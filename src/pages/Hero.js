@@ -17,12 +17,12 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 items-center mr-28 ml-48">
           {/* Text Content */}
           <div className="text-center lg:text-left">
-            <h1 className="text-7xl lg:text-5xl font-bold mb-4 leading-snug text-black -mt-10">
+            <h1 className="text-7xl lg:text-5xl font-normal mb-4 leading-snug text-black -mt-10">
               Advanced UI/UX
               <br />
               designer.
             </h1>
-            <p className="text-lg lg:text-xl text-black/70 font-normal mb-4 leading-normal mt-4">
+            <p className="text-lg lg:text-xl text-black/70 font-light mb-4 leading-normal mt-4">
               Experience with React JS, HTML,<br />CSS, JavaScript.
             </p>
             <a
